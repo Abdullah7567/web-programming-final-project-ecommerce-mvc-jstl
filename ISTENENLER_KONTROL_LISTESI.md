@@ -12,4 +12,4 @@ Kaynak ödev dosyasındaki ana isterlere göre proje kapsamı:
 - Form doğrulama: HTML ve Servlet tarafında temel kontroller eklendi.
 - Ek özellikler: ürün arama, sipariş durumunda renkli gösterim, şifreleri SHA-256 hashleme.
 
-Not: Maven bu çalışma ortamında kurulu olmadığı için WAR paketi burada üretilemedi; Java sınıfları servlet-api ile sözdizimi açısından kontrol edildi. Kendi bilgisayarınızda `mvn clean package` komutu ile WAR dosyasını alabilirsiniz.
+Not: Not: Proje Maven ile derlenebilir ve target/ecommerce-mvc-jstl.war dosyası Tomcat 9 üzerinde çalıştırılabilir.
