@@ -112,7 +112,7 @@ butonuna basın.
 İşlem başarılı olursa sol tarafta şu veritabanı oluşmalıdır:
 
 ```text
-ecommerce_mvc
+ecommerce_mvc_jstl
 ```
 
 ---
