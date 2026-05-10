@@ -112,7 +112,7 @@ butonuna basın.
 İşlem başarılı olursa sol tarafta şu veritabanı oluşmalıdır:
 
 ```text
-ecommerce_mvc_jstl
+ecommerce_mvc
 ```
 
 ---
@@ -128,7 +128,7 @@ C:\ecommerce-mvc-jstl\src\main\resources\db.properties
 XAMPP kullanıyorsanız genelde ayarlar şöyle olmalıdır:
 
 ```properties
-db.url=jdbc:mysql://localhost:3306/ecommerce_mvc_jstl?useSSL=false&serverTimezone=UTC
+db.url=jdbc:mysql://localhost:3306/ecommerce_mvc?useSSL=false&serverTimezone=UTC
 db.username=root
 db.password=
 ```
