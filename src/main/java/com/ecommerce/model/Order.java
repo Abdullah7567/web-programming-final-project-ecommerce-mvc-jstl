@@ -1,0 +1,4 @@
+package com.ecommerce.model;
+import java.math.BigDecimal; import java.sql.Timestamp; import java.util.*;
+public class Order { private int id,userId; private String customerName,status; private Timestamp orderDate; private BigDecimal totalAmount; private List<OrderItem> items=new ArrayList<>();
+ public int getId(){return id;} public void setId(int v){id=v;} public int getUserId(){return userId;} public void setUserId(int v){userId=v;} public String getCustomerName(){return customerName;} public void setCustomerName(String v){customerName=v;} public String getStatus(){return status;} public void setStatus(String v){status=v;} public Timestamp getOrderDate(){return orderDate;} public void setOrderDate(Timestamp v){orderDate=v;} public BigDecimal getTotalAmount(){return totalAmount;} public void setTotalAmount(BigDecimal v){totalAmount=v;} public List<OrderItem> getItems(){return items;} public void setItems(List<OrderItem> v){items=v;} }

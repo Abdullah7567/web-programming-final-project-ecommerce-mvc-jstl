@@ -1,0 +1,2 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ include file="top.jsp" %><h3>Kullanıcılar</h3><table class="table bg-white"><tr><th>ID</th><th>Ad soyad</th><th>E-posta</th><th>Telefon</th><th>Rol</th><th>Kayıt tarihi</th></tr><c:forEach var="u" items="${users}"><tr><td>${u.id}</td><td>${u.fullName}</td><td>${u.email}</td><td>${u.phone}</td><td>${u.role}</td><td><fmt:formatDate value="${u.createdAt}" pattern="dd.MM.yyyy HH:mm"/></td></tr></c:forEach></table><%@ include file="bottom.jsp" %>

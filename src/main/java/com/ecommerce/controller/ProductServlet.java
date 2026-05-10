@@ -1,0 +1,3 @@
+package com.ecommerce.controller;
+import com.ecommerce.dao.ProductDAO; import com.ecommerce.util.View; import javax.servlet.*; import javax.servlet.annotation.WebServlet; import javax.servlet.http.*; import java.io.IOException;
+@WebServlet("/product") public class ProductServlet extends HttpServlet{protected void doGet(HttpServletRequest req,HttpServletResponse resp)throws ServletException,IOException{try{req.setAttribute("product",new ProductDAO().findById(Integer.parseInt(req.getParameter("id"))));View.forward(req,resp,"product-detail.jsp");}catch(Exception e){throw new ServletException(e);}}}
